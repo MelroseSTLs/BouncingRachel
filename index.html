@@ -51,33 +51,17 @@
             padding: 5px;
         }
     </style>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36259098-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
 </head>
 
 <body>
-
-    <aside class="link">
-        <a href="http://tayebbayri.com" target="_blank">tayebbayri.com</a>
-    </aside>
-
-    <script src="app.min.js"></script>
+    <script src="app.js"></script>
     <script>
         var dvd = new bouncingdvdlogo({
-            imagesExtension: '.png',
-            speed: 5
+            logoHeight: 390,
+            logoWidth: 250,
+            imagesPrefix: 'rachel-',
+            imagesNums: 11,
+            speed: 4
         });
     </script>
 </body>

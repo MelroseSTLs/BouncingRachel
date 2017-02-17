@@ -58,7 +58,7 @@ var bouncingdvdlogo;
         init: function (options) {
             var self = this;
             this.parameters = options;
-            this.loadLogos(5);
+            this.loadLogos(thecentralscrutinizer.parameters.imagesNums);
 
             view.init();
 
@@ -195,6 +195,7 @@ var bouncingdvdlogo;
             imagesFolder: options.imagesFolder || 'logos/',
             imagesPrefix: options.imagesPrefix || 'dvdlogo-',
             imagesExtension: options.imagesExtension || '.jpg',
+            imagesNums: options.imagesNums || 7,
             maxSpeed: 50,
             uid: utils.generateId()
         };
